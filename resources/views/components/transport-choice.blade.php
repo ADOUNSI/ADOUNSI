@@ -5,7 +5,7 @@
 
         <!-- Bloc 1 : Type de véhicule -->
         <div class="col-lg-12 mb30">
-          <h1 class="text-center mb-4">Comment souhaitez-vous voyager ?</h1>
+          <h1 class="text-center mb-4"  style="color: #011011ff;">Comment souhaitez-vous voyager ?</h1>
           <div class="de_form de_radio row g-3 justify-content-center text-center">
 
             <!-- Car -->
@@ -13,48 +13,63 @@
               <input id="radio-1a" name="Car_Type" type="radio" value="Car">
               <label for="radio-1a" class="d-flex flex-column align-items-center justify-content-center text-center h-100">
                 <a href="/car" class="text-decoration-none text-dark w-100 d-flex flex-column align-items-center justify-content-center">
-                  <img src="images/select-form/car.png" alt="Car" class="img-fluid mb-2">
-                  <div><strong>Car</strong></div>
-                  <div style="color: white; font-weight: 500; margin-top: 4px;">à partir de 2 500 FCFA</div>
+                  <img src="images/select-form/caro.png" alt="Car" class="img-fluid mb-2">
+                  <div><strong>Covoiturage </strong></div>
+                  <div style="color: white; font-weight: 500; margin-top: 4px;">Allez partout à prix mini</div>
                 </a>
               </label>
             </div>
 
-            <!-- Van -->
-            <div class="radio-img col-lg-3 col-sm-3 col-6">
-              <input id="radio-1b" name="Car_Type" type="radio" value="Van">
-              <label for="radio-1b" class="d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <a href="/van" class="text-decoration-none text-dark w-100 d-flex flex-column align-items-center justify-content-center">
-                  <img src="images/select-form/van.png" alt="Van" class="img-fluid mb-2">
-                  <div><strong>Van</strong></div>
-                  <div style="color: white; font-weight: 500; margin-top: 4px;">à partir de 3 000 FCFA</div>
-                </a>
-              </label>
-            </div>
+<!-- Minibus -->
+<div class="radio-img col-lg-3 col-sm-3 col-6" style="background-color: #1ECB15; border-radius: 12px;">
+  <input id="radio-1c" name="Car_Type" type="radio" value="Minibus">
+  <label for="radio-1c"
+         class="d-flex flex-column align-items-center justify-content-center text-center h-100"
+         style="padding: 12px; width: 100%; height: 100%;">
 
-            <!-- Minibus -->
-            <div class="radio-img col-lg-3 col-sm-3 col-6">
-              <input id="radio-1c" name="Car_Type" type="radio" value="Minibus">
-              <label for="radio-1c" class="d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <a href="/minibus" class="text-decoration-none text-dark w-100 d-flex flex-column align-items-center justify-content-center">
-                  <img src="images/select-form/minibus.png" alt="Minibus" class="img-fluid mb-2">
-                  <div><strong>Minibus</strong></div>
-                  <div style="color: white; font-weight: 500; margin-top: 4px;">à partir de 3 500 FCFA</div>
-                </a>
-              </label>
-            </div>
+    <a href="/minibus"
+       class="text-decoration-none w-100 d-flex flex-column align-items-center justify-content-center"
+       style="color: white; text-align: center; width: 100%;">
+
+      <!-- Image -->
+      <img src="images/select-form/dibus.png" alt="bus"
+           class="img-fluid mb-2"
+           style="width: 100%; border-radius: 8px; display: block; background-color: transparent;">
+
+      <!-- Texte -->
+      <div><strong>Bus</strong></div>
+      <div style="font-weight: 500; margin-top: 4px;">100+ destinations dès 1500 FCFA</div>
+    </a>
+  </label>
+</div>
+
+
+
+
 
             <!-- Prestige -->
-            <div class="radio-img col-lg-3 col-sm-3 col-6">
-              <input id="radio-1d" name="Car_Type" type="radio" value="Prestige">
-              <label for="radio-1d" class="d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <a href="/prestige" class="text-decoration-none text-dark w-100 d-flex flex-column align-items-center justify-content-center">
-                  <img src="images/select-form/sportscar.png" alt="Prestige" class="img-fluid mb-2">
-                  <div><strong>Prestige</strong></div>
-                  <div style="color: white; font-weight: 500; margin-top: 4px;">à partir de 5 000 FCFA</div>
-                </a>
-              </label>
-            </div>
+                <!-- Train -->
+                <div class="radio-img col-lg-3 col-sm-3 col-6" style="background-color: #262626; border-radius: 12px;">
+                <input id="radio-1d" name="Car_Type" type="radio" value="train">
+                <label for="radio-1d"
+                        class="d-flex flex-column align-items-center justify-content-center text-center h-100"
+                        style="padding: 12px; width: 100%; height: 100%;">
+
+                    <a href="/prestige"
+                    class="text-decoration-none w-100 d-flex flex-column align-items-center justify-content-center"
+                    style="color: white; text-align: center; width: 100%;">
+
+                    <!-- Image -->
+                    <img src="images/select-form/efi.jpg" alt="Train"
+                        class="img-fluid mb-2"
+                        style="width: 100%; border-radius: 8px; display: block; background-color: #262626;">
+
+                    <!-- Texte -->
+                    <div><strong>Train</strong></div>
+                    <div style="font-weight: 500; margin-top: 4px;">à partir de 5 000 FCFA</div>
+                    </a>
+                </label>
+                </div>
 
           </div>
         </div>

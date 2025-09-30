@@ -16,7 +16,7 @@
 
         <!-- header begin -->
         <header class="transparent scroll-light has-topbar">
-4
+
           <x-header />
 
 
@@ -29,23 +29,23 @@
             <section id="section-hero" aria-label="section" class="jarallax">
                 <x-hero-search />
             </section>
-
+ <section class="text-light jarallax">
 <x-transport-choice />
+</section>
 
-            <section class="text-light jarallax">
-               <x-about-agency />
 
-            </section>
+
 
 
             <section aria-label="section">
                <x-feature-banner />
             </section>
 
-            <section id="section-cars">
-                <x-trajet-card/>
 
-            </section>
+                <x-trajet-card/>
+                <x-about-agency />
+
+
             <section class="text-light jarallax" aria-label="section">
                         <x-adventure-banner />
             </section>
@@ -58,10 +58,7 @@
 
 
 
-            <section id="section-call-to-action" class="bg-color-2 pt60 pb60 text-light">
-               <x-call-to-action />
 
-            </section>
 
         </div>
         <!-- content close -->

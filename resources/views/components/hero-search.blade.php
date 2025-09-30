@@ -11,7 +11,7 @@
   <option value="Godomey">
 </datalist>
 
-<section id="section-hero" class="hero-search jarallax text-light position-relative" style="position: relative; overflow: visible;">
+<section id="section-hero" class="hero-search jarallax text-light position-relative" style="margin-bottom: 0 !important; padding-bottom: 0 !important;">
   {{-- 🖼️ Image de fond --}}
   <img src="{{ asset('images/background/1.jpg') }}" class="jarallax-img" alt="Image de fond Auto-Stop">
 
@@ -20,7 +20,7 @@
       <div class="col-lg-12">
         <div class="spacer-double"></div>
         <h1 class="mb-3 wow fadeInDown">
-          Voyagez <span class="id-color">partout au Bénin</span> à petit prix
+            Voyagez <span class="id-color">partout au Bénin</span> à petit prix
         </h1>
         <p class="lead wow fadeInUp">Covoiturage simple, rapide et sécurisé</p>
         <div class="spacer-single"></div>
@@ -130,6 +130,7 @@
       </div>
     </div>
   </div>
+
 </section>
 
 <!-- Script compteur + autocomplétion -->

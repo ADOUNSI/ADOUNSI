@@ -1,18 +1,18 @@
-<section class="py-5 bg-light">
+<section class="py-5" style="background-color: #054652;">
   <div class="container">
-    <h2 class="mb-3">Où allez-vous ?</h2>
-    <p class="mb-4 text-muted">Choisissez un trajet quotidien et économisez en covoiturant avec Auto-Stop.bj.</p>
+    <h2 class="mb-3 text-white">Où allez-vous ?</h2>
+    <p class="mb-4 text-light">Choisissez un trajet quotidien et économisez en covoiturant avec Auto-Stop.bj.</p>
 
     <div class="row g-4" id="trajet-container">
       <!-- Carte 1 -->
       <div class="col-md-6 col-lg-4">
         <a href="/trajet/cotonou-abomey-calavi" class="text-decoration-none">
-          <div class="card shadow-sm h-100">
+          <div class="card shadow-sm h-100" style="background-color: #ffffff; color: #054652;">
             <div class="card-body d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+              <i class="bi bi-geo-alt-fill fs-4 me-3" style="color: #054652;"></i>
               <div>
                 <h5 class="mb-1">Cotonou → Abomey-Calavi</h5>
-                <small class="text-muted">Trajet populaire</small>
+                <small style="color: #054652;">Trajet populaire</small>
               </div>
             </div>
           </div>
@@ -22,12 +22,12 @@
       <!-- Carte 2 -->
       <div class="col-md-6 col-lg-4">
         <a href="/trajet/porto-novo-cotonou" class="text-decoration-none">
-          <div class="card shadow-sm h-100">
+          <div class="card shadow-sm h-100" style="background-color: #ffffff; color: #054652;">
             <div class="card-body d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+              <i class="bi bi-geo-alt-fill fs-4 me-3" style="color: #054652;"></i>
               <div>
                 <h5 class="mb-1">Porto-Novo → Cotonou</h5>
-                <small class="text-muted">Trajet fréquent</small>
+                <small style="color: #054652;">Trajet fréquent</small>
               </div>
             </div>
           </div>
@@ -37,12 +37,12 @@
       <!-- Carte 3 -->
       <div class="col-md-6 col-lg-4">
         <a href="/trajet/godomey-cadjehoun" class="text-decoration-none">
-          <div class="card shadow-sm h-100">
+          <div class="card shadow-sm h-100" style="background-color: #ffffff; color: #054652;">
             <div class="card-body d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+              <i class="bi bi-geo-alt-fill fs-4 me-3" style="color: #054652;"></i>
               <div>
                 <h5 class="mb-1">Godomey → Cadjehoun</h5>
-                <small class="text-muted">Trajet express</small>
+                <small style="color: #054652;">Trajet express</small>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@
 
     <!-- Bouton dynamique -->
     <div class="text-end mt-4">
-      <button id="toggle-btn" class="btn btn-outline-primary rounded-pill" onclick="toggleTrajets()">
+      <button id="toggle-btn" class="btn btn-outline-light rounded-pill" onclick="toggleTrajets()">
         Voir tous les trajets
       </button>
     </div>
@@ -86,12 +86,12 @@
         div.className = 'col-md-6 col-lg-4';
         div.innerHTML = `
           <a href="${trajet.lien}" class="text-decoration-none">
-            <div class="card shadow-sm h-100">
+            <div class="card shadow-sm h-100" style="background-color: #ffffff; color: #054652;">
               <div class="card-body d-flex align-items-center">
-                <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+                <i class="bi bi-geo-alt-fill fs-4 me-3" style="color: #054652;"></i>
                 <div>
                   <h5 class="mb-1">${trajet.titre}</h5>
-                  <small class="text-muted">${trajet.sous}</small>
+                  <small style="color: #054652;">${trajet.sous}</small>
                 </div>
               </div>
             </div>
@@ -108,7 +108,6 @@
       btn.textContent = 'Voir tous les trajets';
       expanded = false;
 
-      // Scroll vers la section si elle est partiellement hors écran
       const rect = section.getBoundingClientRect();
       if (rect.top < 0 || rect.bottom > window.innerHeight) {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' });

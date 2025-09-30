@@ -1,50 +1,32 @@
-<section class="text-light jarallax">
-                <img src="images/background/2.jpg" class="jarallax-img" alt="">
-                <div class="container">
-                    <div class="row g-5">
-                        <div class="col-lg-6 wow fadeInRight">
-                            <h2>Nous mettons en relation  <span class="id-color">des passagers et des conducteurs </span> pour tous types de trajets — du quotidien aux grandes occasions.
+<section class="text-dark bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
 
-.</h2>
-                        </div>
-                        <div class="col-lg-6 wow fadeInLeft">
-Chez Auto-Stop.bj, nous croyons que chacun mérite un trajet confortable, fiable et accessible, quel que soit son budget.
-Notre plateforme vous connecte à une diversité de conducteurs et de véhicules bien entretenus — de la citadine économique au véhicule premium — pour tous vos déplacements.
-Grâce à notre système de réservation simplifié, vous trouvez rapidement un trajet adapté à vos besoins, que ce soit pour un rendez-vous professionnel, un voyage en famille ou une escapade du week-end.
-Auto-Stop.bj, c’est le covoiturage qui respecte votre rythme, votre budget et votre liberté.
+      <!-- Colonne 1 : image à gauche -->
+      <div class="col-lg-6 wow fadeInLeft text-center">
+        <img src="/images/bus.png" alt="Application Auto-Stop.bj"
+             class="img-fluid rounded" style="max-height: 320px; object-fit: cover;">
+      </div>
 
-                        </div>
-                    </div>
-                    <div class="spacer-double"></div>
-                    <div class="row text-center">
-                        <div class="col-md-3 col-sm-6 mb-sm-30">
-                            <div class="de_count transparent text-light wow fadeInUp">
-                                <h3 class="timer" data-to="15425" data-speed="3000">0</h3>
-                                   Trajets effectués
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-sm-30">
-                            <div class="de_count transparent text-light wow fadeInUp">
-                                <h3 class="timer" data-to="8745" data-speed="3000">0</h3>
-                                   Passagers satisfaits
+      <!-- Colonne 2 : texte à droite -->
+      <div class="col-lg-6 wow fadeInRight">
+        <h2 style="color: #054652;">
+            Découvrez de nouvelles villes sans vous ruiner avec les bus Auto-Stop.bj !
+        </h2>
+        <p class="mt-3">
+Chaque semaine, chaque mois. Pour une réunion importante ou juste parce que vous avez envie de voir un nouvel endroit. Avec une grande famille. Ou un gros bagage. Vers la mer comme vers les pistes de ski. Peu importe votre voyage, il sera toujours simple et abordable avec les bus Auto-stop.bj
+        </p>
 
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-sm-30">
-                            <div class="de_count transparent text-light wow fadeInUp">
-                                <h3 class="timer" data-to="235" data-speed="3000">0</h3>
-                                    Liste des véhicules disponibles
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-sm-30">
-                            <div class="de_count transparent text-light wow fadeInUp">
-                                <h3 class="timer" data-to="15" data-speed="3000">0</h3>
-                                    Expérience terrain
+        <!-- ✅ Bouton capsule verte centré -->
+        <div class="mt-4 text-center">
+          <a href="https://www.blablacar.fr" target="_blank" rel="noopener noreferrer"
+             class="btn px-4 py-2"
+             style="background-color: #28a745; color: #ffffff; border-radius: 50px; font-weight: 500;">
+            Découvrir notre bus
+          </a>
+        </div>
+      </div>
 
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    </div>
+  </div>
+</section>

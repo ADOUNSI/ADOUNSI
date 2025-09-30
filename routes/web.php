@@ -29,15 +29,47 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/trajets', [TrajetController::class, 'index'])->name('trajets.index');
-Route::get('/bus', fn() => view('bus.index'))->name('bus.index');
-Route::get('/train', fn() => view('train.index'))->name('train.index');
-Route::get('/aide', fn() => view('aide'))->name('aide');
-Route::get('/recherche-trajets', [TrajetController::class, 'recherche'])->name('trajets.recherche');
-Route::get('/trajets/create', [TrajetController::class, 'create'])->name('trajets.create');
-Route::post('/trajets', [TrajetController::class, 'store'])->name('trajets.store');
-Route::get('/testimonials', [TestimonialController::class, 'index'])->name('testimonials.index');
 
+
+
+Route::get('/daily', function () {
+    return view('pages.daily');
+})->name('daily.page');
+
+
+Route::get('/bus', function () {
+    return view('pages.bus');
+})->name('bus.page');
+
+Route::get('/carpool', function () {
+    return view('pages.carpool');
+})->name('carpool.page');
+
+
+Route::get('/daily', function () {
+    return view('pages.daily');
+})->name('daily.page');
+
+Route::get('/search-car-sharing', function () {
+    return view('pages.search-car-sharing');
+})->name('carsharing.search');
+
+Route::get('/offer-seats', function () {
+    return view('pages.offer-seats');
+})->name('seats.offer');
+
+
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
+Route::get('/register/dispatch', function () {
+    return view('auth.register');
+})->name('register.dispatch');
+
+Route::get('/train', function () {
+    return view('pages.train');
+})->name('train.page');
 
 
 

@@ -1,32 +1,33 @@
-<section class="text-light jarallax" aria-label="section">
-  <img src="images/background/3.jpg" alt="" class="jarallax-img">
+<section class="text-white" style="background-color: #28a745; padding: 60px 0;">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <h1>Votre sécurité est notre priorité</h1>
-        <div class="spacer-20"></div>
+    <div class="row align-items-center g-5 flex-row-reverse">
+
+      <!-- Colonne 1 : image à droite -->
+      <div class="col-lg-6 wow fadeInRight text-center">
+        <img src="/images/jene.jpg" alt="Application Auto-Stop.bj"
+             class="img-fluid rounded" style="max-height: 320px; object-fit: cover;">
       </div>
 
-      <div class="col-md-3">
-        <i class="fa fa-trophy de-icon mb20"></i>
-        <h4>Confort Premium à petit prix</h4>
-        <p>Voyagez comme un VIP, sans en payer le prix. Sièges confortables, trajets bien notés, et conducteurs attentionnés.</p>
+      <!-- Colonne 2 : texte à gauche -->
+      <div class="col-lg-6 wow fadeInLeft">
+        <h2 style="color: #ffffff;">
+          Votre sécurité est notre priorité
+        </h2>
+        <p class="mt-3" style="color: #ffffff;">
+          Chez Auto-Stop.bj, nous nous sommes fixé comme objectif de construire une communauté de covoiturage fiable et digne de confiance à travers le monde.<br>
+          Rendez-vous sur notre page Confiance et sécurité pour explorer les différentes fonctionnalités disponibles pour covoiturer sereinement.
+        </p>
+
+        <!-- ✅ Bouton capsule blanche centré -->
+        <div class="mt-4 text-center">
+          <a href="https://www.blablacar.fr" target="_blank" rel="noopener noreferrer"
+             class="btn px-4 py-2"
+             style="background-color: #ffffff; color: #28a745; border-radius: 50px; font-weight: 500;">
+            En savoir plus
+          </a>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <i class="fa fa-road de-icon mb20"></i>
-        <h4>Assistance réactive 24h/24</h4>
-        <p>Un imprévu sur la route ? Notre équipe est là, à toute heure, pour vous guider, vous rassurer et vous remettre en mouvement en toute sérénité.</p>
-      </div>
-
-      <div class="col-md-3 text-center">
-        <i class="fa fa-shield de-icon mb20"></i>
-        <h4>Voyager en toute sécurité</h4>
-        <p>Profils vérifiés, avis authentiques, assistance dédiée et paiement sécurisé pour des trajets sereins.</p>
-        <a href="/securite" style="display: inline-block; padding: 10px 20px; background-color: #fff; color: #000; border-radius: 30px; text-decoration: none; font-weight: bold;">
-          En savoir plus
-        </a>
-      </div>
     </div>
   </div>
 </section>
